@@ -387,12 +387,12 @@ header {
         @media screen and (max-width: 768px) {
           #colorlib-hero .hero-flex .text-inner .desc {
             padding: 1em;
-            background: #fff;
+            background: rgba(255,255,255,0.5);
             width: 100%; } }
         @media screen and (max-width: 480px) {
           #colorlib-hero .hero-flex .text-inner .desc {
             padding: 1em;
-            background: #fff;
+            background: rgba(255,255,255,0.5);
             width: 140%; } }
         #colorlib-hero .hero-flex .text-inner .desc:after {
           position: absolute;
