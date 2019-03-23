@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 43, 220, 0.9);
+  background: rgba(51, 51, 60, 0.9);
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -609,6 +609,9 @@ header {
       font-weight: 500;
       color: #b3b3b3; }
     .about-info .wrap .year {
+      color: #000; }
+    .about-info .wrap .jobdesc {
+      font-size: 85%;
       color: #000; }
 
 .intro-heading {
@@ -1348,7 +1351,8 @@ input[type="text"] {
 
 .colorlib-footer {
   padding-bottom: 5em;
-  background: #002bdc;
+  /* background-image: url(images/vincent-1.jpg); */
+  background-color: #333333;
   color: rgba(255, 255, 255, 0.9); }
   .colorlib-footer a {
     color: #fff; }
